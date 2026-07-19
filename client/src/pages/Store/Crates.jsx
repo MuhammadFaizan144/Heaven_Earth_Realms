@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Crate = () => {
+const Crates = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Crate = () => {
   )
 }
 
-export default Crate
+export default Crates
