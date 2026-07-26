@@ -28,15 +28,15 @@ const Navbar = () => {
   return (
     <>
       <nav className="w-full bg-black/80 backdrop-blur-md text-white">
-        <div className="max-w-7xl mx-auto h-20 px-6 flex items-center justify-between">
+        <div className="max-w-[1680px] mx-auto h-20 px-6 flex items-center justify-between">
           {/* Left */}
           <div className="flex items-center gap-5">
             {/* Mobile Menu Button */}
             <button
-              className="lg:hidden text-2xl"
+              className="lg:hidden text-3xl"
               onClick={() => setOpen(true)}
             >
-              <FaBars />
+              <FaBars className=""/>
             </button>
 
             {/* Social Icons */}
@@ -47,7 +47,7 @@ const Navbar = () => {
                   <li key={index}>
                     <a
                       href={item.link}
-                      className="text-xl hover:text-yellow-400 transition"
+                      className="text-2xl hover:text-yellow-400 transition"
                     >
                       <Icon />
                     </a>
@@ -58,12 +58,12 @@ const Navbar = () => {
           </div>
 
           {/* Center Links (Desktop Only) */}
-          <ul className="hidden lg:flex items-center gap-10 text-lg font-medium">
+          <ul className="hidden lg:flex items-center gap-4 text-lg font-medium ">
             {navbarlinks.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="border border-red-400 px-10 py-2">
                 <a
                   href={item.link}
-                  className="hover:text-yellow-400 transition"
+                  className="hover:text-yellow-400 transition "
                 >
                   {item.name}
                 </a>
