@@ -42,27 +42,61 @@ const Home = () => {
           </div>
         </div>
       </article>
-      <article>
-        <div className="">
-          <h2>The Minecraft MMO Survival</h2>
-          <div className=""><img src="" alt="" /></div>
-          <p>
-            Forge your own destiny in HeavenEarthRealm, a unique Minecraft MMORPG Survival experience where the world is shaped by your choices. No mods are required—just join and begin your adventure.
+      <article className="w-full bg-zinc-800 py-12 sm:py-16 lg:py-24">
+  <div className="mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-12">
+    <div className="max-w-3xl">
+      <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+        The Minecraft MMO Survival
+      </h2>
 
-            Choose your class, master powerful skills, and progress through a living world filled with quests, dangerous dungeons, challenging bosses, hidden secrets, and legendary loot. Build your reputation, level up your character, craft powerful gear, and explore a fantasy realm where Heaven and Earth collide.
+      <div className="mb-8 overflow-hidden rounded-xl border border-zinc-700">
+        <img
+          src=""
+          alt="HeavenEarthRealm"
+          className="h-auto w-full object-cover"
+        />
+      </div>
 
-            Whether you prefer battling monsters, uncovering ancient mysteries, gathering rare resources, or becoming one of the server’s strongest adventurers, your journey is entirely your own.
-          </p>
-          <p>How to Join HeavenEarthRealm</p>
-          <ul>
-            <li>Launch Minecraft: Java Edition</li>
-            <li>Open Multiplayer and Click Add Server</li>
-            <li>Enter the Server IP: play.heavenearthrealms.com</li>
-            <li>Click Join Server and install resource packs it's compulsory</li>
-            <li>After installation, you can start playing!</li>
-          </ul>
-        </div>
-      </article>
+      <p className="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
+        Forge your own destiny in <strong>HeavenEarthRealm</strong>, a unique
+        Minecraft MMORPG Survival experience where the world is shaped by your
+        choices. No mods are required—just join and begin your adventure.
+        <br />
+        <br />
+        Choose your class, master powerful skills, and progress through a living
+        world filled with quests, dangerous dungeons, challenging bosses, and
+        legendary loot. Build your reputation, level up your character, craft
+        powerful gear, and explore a fantasy custom world filled with new
+        terrain, biomes, and structures.
+        <br />
+        <br />
+        Whether you prefer battling monsters, gathering rare resources, or
+        becoming one of the server's strongest adventurers, your journey is
+        entirely your own.
+      </p>
+
+      <h3 className="mb-4 text-2xl font-semibold text-white sm:text-3xl">
+        How to Join HeavenEarthRealm
+      </h3>
+
+      <ul className="space-y-3 pl-5 text-base leading-7 text-gray-300 marker:text-yellow-400 sm:text-lg">
+        <li>Launch Minecraft: Java Edition.</li>
+        <li>
+          Open <strong>Multiplayer</strong> and click{" "}
+          <strong>Add Server</strong>.
+        </li>
+        <li>
+          Enter the Server IP:{" "}
+          <span className="font-semibold break-all text-yellow-400">
+            play.heavenearthrealms.com
+          </span>
+        </li>
+        <li>Join the server and accept the resource pack (required).</li>
+        <li>Once the resource pack finishes downloading, your adventure begins!</li>
+      </ul>
+    </div>
+  </div>
+</article>
     </section>
 
   );
