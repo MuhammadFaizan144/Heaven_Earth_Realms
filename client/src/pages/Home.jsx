@@ -104,14 +104,30 @@ const Home = () => {
               Custom Terrain, Biomes, and Structures
             </h2>
             <p className="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
-              Travel the provinces of Wynn and Gavel, each filled with incredible medieval rustic builds and fantasy landscapes created over 10+ years by our build team.
-              
+              Travel the new biomes, each filled with incredible medieval rustic builds and fantasy landscapes created with care and attention to detail. Explore the world and discover unique dungeons, hidden treasures, and challenging bosses that will test your skills and reward your efforts.
               <br />
-              Choose your class, master powerful skills, and progress through a living
-              world filled with quests, dangerous dungeons, challenging bosses, and
-              legendary loot. Build your reputation, level up your character, craft
-              powerful gear, and explore a fantasy custom world filled with new
-              terrain, biomes, and structures.
+              <br />
+              Each biome is designed to provide a unique experience, from lush forests and towering mountains to dark caves and mystical ruins. The world of HeavenEarthRealm is alive and colorful, with new content and challenges added regularly to keep your adventure fresh and exciting.
+            </p>
+
+            <div className="mb-8 overflow-hidden rounded-xl border border-zinc-700">
+              <img
+                src=""
+                alt="HeavenEarthRealm"
+                className="h-auto w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </article>
+      <article className="w-full bg-zinc-800 py-12 sm:py-16 lg:py-24">
+        <div className="mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-12">
+          <div className="max-w-3xl">
+            <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+              Loot & Economy
+            </h2>
+            <p className="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
+              Find legendary items and combo them with your attributes for devastating effects, or sell them on the Auction House and become the richest player in one of the largest Minecraft server economies.
             </p>
 
             <div className="mb-8 overflow-hidden rounded-xl border border-zinc-700">
