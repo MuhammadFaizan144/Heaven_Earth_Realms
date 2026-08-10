@@ -140,6 +140,26 @@ const Home = () => {
           </div>
         </div>
       </article>
+      <article className="w-full bg-zinc-800 py-12 sm:py-16 lg:py-24">
+        <div className="mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-12">
+          <div className="max-w-3xl">
+            <h2 className="mb-6 text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
+              Quests & Dungeons
+            </h2>
+            <p className="mb-8 text-base leading-7 text-gray-300 sm:text-lg sm:leading-8">
+              Embark on epic quests and explore dangerous dungeons filled with powerful bosses and rare loot. Complete challenging objectives, defeat formidable enemies, and uncover hidden secrets as you progress through the world of HeavenEarthRealm.
+            </p>
+
+            <div className="mb-8 overflow-hidden rounded-xl border border-zinc-700">
+              <img
+                src=""
+                alt="HeavenEarthRealm"
+                className="h-auto w-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+      </article>
     </section>
 
   );
