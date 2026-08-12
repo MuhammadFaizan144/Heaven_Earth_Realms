@@ -188,14 +188,6 @@ const Home = () => {
               <li>Join the server and accept the resource pack (required).</li>
               <li>Once the resource pack finishes downloading, your adventure begins!</li>
             </ul>
-
-            <div className="mb-8 overflow-hidden rounded-xl border border-zinc-700">
-              <img
-                src=""
-                alt="HeavenEarthRealm"
-                className="h-auto w-full object-cover"
-              />
-            </div>
           </div>
         </div>
       </article>

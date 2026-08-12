@@ -9,7 +9,7 @@ import {
 
 const navbarlinks = [
   { name: "Home", link: "/" },
-  { name: "News", link: "/" },
+  { name: "News", link: "/news" },
   { name: "Store", link: "/" },
   { name: "Community", link: "/" },
   { name: "Items", link: "/" },
