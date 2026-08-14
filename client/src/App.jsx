@@ -7,6 +7,7 @@ import Crates from './pages/Store/Crates'
 import Items from './pages/Items'
 import Classes from './pages/Classes'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ const App = () => {
         <Route path='/news' element={<News/>}/>
         
       </Routes>
+    <Footer/>
     </BrowserRouter>
   )
 }

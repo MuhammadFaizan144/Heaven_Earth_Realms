@@ -10,10 +10,10 @@ import {
 const navbarlinks = [
   { name: "Home", link: "/" },
   { name: "News", link: "/news" },
-  { name: "Store", link: "/" },
-  { name: "Community", link: "/" },
-  { name: "Items", link: "/" },
-  { name: "Classes", link: "/" },
+  // { name: "Store", link: "/" },
+  // { name: "Community", link: "/" },
+  // { name: "Items", link: "/" },
+  // { name: "Classes", link: "/" },
 ];
 
 const navIcons = [
