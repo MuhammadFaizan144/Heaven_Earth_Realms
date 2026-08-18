@@ -9,7 +9,7 @@ const news = [
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
   },
 ];
-
+import { Link } from "react-router-dom";
 const News = () => {
   return (
     <section className="min-h-screen bg-zinc-900 px-6 py-24">
@@ -58,12 +58,13 @@ const News = () => {
                 </h2>
 
                 <div className="mt-6 flex items-center justify-between">
-                  <button
+                  <Link
+                    to={`/news/news-details`}
                     type="button"
                     className="rounded-lg bg-amber-500 px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-colors hover:bg-amber-400"
                   >
                     Read Now
-                  </button>
+                  </Link>
                   <div className="rounded-full bg-zinc-900/80 px-4 py-2 text-xs font-medium text-zinc-200 backdrop-blur-md">
                   {item.date}
                 </div>

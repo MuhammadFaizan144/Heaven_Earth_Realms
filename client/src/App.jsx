@@ -8,6 +8,7 @@ import Items from './pages/Items'
 import Classes from './pages/Classes'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import NewsDetails from './pages/news/NewsDetails'
 const App = () => {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ const App = () => {
         <Route path='/items' element={<Items/>}/>
         <Route path='/classes' element={<Classes/>}/>
         <Route path='/news' element={<News/>}/>
+        <Route path='/news/news-details' element={<NewsDetails/>}/>
         
       </Routes>
     <Footer/>
