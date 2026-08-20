@@ -4,7 +4,7 @@ const news = [
   {
     id: 1,
     title: "A New Era Begins in Heaven Earth",
-    date: "August 12, 2026",
+    date: "July 9, 2026",
     image:
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
   },

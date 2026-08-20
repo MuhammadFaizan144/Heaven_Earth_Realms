@@ -3,15 +3,15 @@ import { FaNewspaper, FaChevronRight, FaExternalLinkAlt } from "react-icons/fa";
 
 const NewsDetails = () => {
     const news = {
-  title: "HeavenEarthRealms: Development Has Begun!",
-  category: "Development",
-  author: "HeavenEarthRealms",
-  date: "August 18th 2026",
-  likes: 0,
-  time: "just now",
-  banner: "/images/news/heavenearth-development-banner.png",
-  image: "/images/news/heavenearth-development.png",
-};
+        title: "HeavenEarthRealms: Development Has Begun!",
+        category: "Development",
+        author: "HeavenEarthRealms",
+        date: "July 9th, 2026",
+        likes: 0,
+        time: "just now",
+        banner: "/images/news/heavenearth-development-banner.png",
+        image: "/images/news/heavenearth-development.png",
+    };
 
     return (
         <main className="min-h-screen bg-[#171410] text-white">
@@ -89,20 +89,37 @@ const NewsDetails = () => {
                             </p>
 
                             <p>
-                                We're excited to finally begin building the world we've been
-                                imagining — a unique Minecraft experience filled with adventure,
-                                exploration, progression, custom content, and a world waiting to
-                                be discovered.
+                                HeavenEarthRealms is a survival server with an MMORPG-style
+                                progression system. We're keeping the core Minecraft survival
+                                experience while adding our own systems, custom content, and
+                                ways for players to progress.
                             </p>
 
                             <p>
-                                This is only the beginning. Behind the scenes, we're working on
-                                the foundation of the server, from the{" "}
+                                You can still build, gather resources, explore, fight mobs,
+                                and play survival just like you normally would. The difference
+                                is that there is a lot more to discover and work towards as
+                                your character grows.
+                            </p>
+
+                            <h2 className="pt-4 text-xl font-bold text-white sm:text-2xl">
+                                THE WORLD
+                            </h2>
+
+                            <p>
+                                The survival world isn't using completely vanilla world
+                                generation. We're creating a custom-generated world using{" "}
                                 <span className="font-bold text-white">
-                                    world and environments
-                                </span>{" "}
-                                to custom systems, gameplay mechanics, items, mobs, quests,
-                                structures, and much more.
+                                    Premium World Generation Plugins
+                                </span>
+                                , giving us much more control over the terrain, biomes,
+                                landscapes, and environments.
+                            </p>
+
+                            <p>
+                                Alongside the custom generation, we're also adding new
+                                structures, villages, dungeons, farms, and other locations
+                                throughout the world for players to discover while exploring.
                             </p>
 
                             <h2 className="pt-4 text-xl font-bold text-white sm:text-2xl">
@@ -110,35 +127,65 @@ const NewsDetails = () => {
                             </h2>
 
                             <p>
-                                HeavenEarthRealms is being designed from the ground up with a
-                                strong focus on creating an immersive RPG experience while still
-                                keeping the world familiar and enjoyable for Minecraft players.
+                                There's a lot being worked on behind the scenes. The server
+                                is still focused on survival, but we've added an MMORPG-style
+                                progression system to give players more depth and different
+                                ways to develop their characters.
                             </p>
 
                             <div className="space-y-2 text-sm">
+
                                 <p>
                                     ⚔️{" "}
                                     <span className="font-semibold text-white">
-                                        Custom Combat
+                                        Classes
                                     </span>{" "}
-                                    — unique weapons, abilities, classes, and combat mechanics.
+                                    — choose a class and build your character around your
+                                    preferred playstyle.
+                                </p>
+
+                                <p>
+                                    🌟{" "}
+                                    <span className="font-semibold text-white">
+                                        Skills & Skill Trees
+                                    </span>{" "}
+                                    — unlock abilities and customize how your character
+                                    develops.
+                                </p>
+
+                                <p>
+                                    📈{" "}
+                                    <span className="font-semibold text-white">
+                                        MMORPG Progression
+                                    </span>{" "}
+                                    — level up, improve your character, and become stronger
+                                    as you play.
+                                </p>
+
+                                <p>
+                                    📜{" "}
+                                    <span className="font-semibold text-white">
+                                        Quests
+                                    </span>{" "}
+                                    — complete quests, earn rewards, and discover things
+                                    around the world.
                                 </p>
 
                                 <p>
                                     🌍{" "}
                                     <span className="font-semibold text-white">
-                                        A Living World
+                                        Custom World Generation
                                     </span>{" "}
-                                    — custom environments, structures, towns, dungeons, and
-                                    unexplored regions.
+                                    — a custom survival world generated with premium world generation plugin, with unique terrain, biomes, and environments.
                                 </p>
 
                                 <p>
-                                    🧙{" "}
+                                    🏰{" "}
                                     <span className="font-semibold text-white">
-                                        RPG Progression
+                                        Custom Structures
                                     </span>{" "}
-                                    — character levels, skills, equipment, and progression systems.
+                                    — discover villages, dungeons, farms, ruins, and other
+                                    structures throughout the world.
                                 </p>
 
                                 <p>
@@ -146,60 +193,79 @@ const NewsDetails = () => {
                                     <span className="font-semibold text-white">
                                         Custom Mobs & Bosses
                                     </span>{" "}
-                                    — enemies with unique abilities, mechanics, and encounters.
+                                    — fight enemies with custom models, abilities, and
+                                    mechanics.
                                 </p>
 
                                 <p>
-                                    🏰{" "}
+                                    🪑{" "}
                                     <span className="font-semibold text-white">
-                                        Dungeons & Adventures
+                                        Custom Furniture
                                     </span>{" "}
-                                    — challenging locations, quests, secrets, and rewards to
-                                    discover.
+                                    — decorate your builds with furniture and other custom
+                                    objects made for the server.
                                 </p>
 
                                 <p>
                                     🪓{" "}
                                     <span className="font-semibold text-white">
-                                        Custom Items & Content
+                                        Custom Items & Equipment
                                     </span>{" "}
-                                    — new equipment, furniture, resources, and other content
-                                    created specifically for HeavenEarthRealms.
+                                    — discover custom weapons, equipment, resources, and
+                                    other content.
                                 </p>
+
                             </div>
+
+                            <h2 className="pt-4 text-xl font-bold text-white sm:text-2xl">
+                                SURVIVAL IS STILL AT THE CORE
+                            </h2>
+
+                            <p>
+                                Even with all these systems, HeavenEarthRealms is still a
+                                survival server at its core.
+                            </p>
+
+                            <p>
+                                You don't have to follow a main story or a specific path.
+                                Build your base, explore the world, gather resources, fight
+                                mobs, complete quests, level up your character, or just play
+                                with your friends.
+                            </p>
+
+                            <p>
+                                The MMORPG systems are there to give you more things to do
+                                and more ways to progress while keeping the freedom of
+                                Minecraft survival.
+                            </p>
 
                             <h2 className="pt-4 text-xl font-bold text-white sm:text-2xl">
                                 THIS IS ONLY THE BEGINNING
                             </h2>
 
                             <p>
-                                We're still in the early stages of development, so there's a lot
-                                more to come. As development progresses, we'll share more
-                                screenshots, features, systems, builds, and behind-the-scenes
-                                updates with the community.
+                                We're still in the early stages of development, and there's
+                                a lot more to come. As development continues, we'll share
+                                more screenshots, builds, custom mobs, systems, structures,
+                                and other things we're working on.
                             </p>
 
                             <p>
-                                Our goal is to create something that feels like more than just
-                                another Minecraft server — a world where players can explore,
-                                grow, fight, build their own stories, and create memories
-                                together.
-                            </p>
-
-                            <p>
-                                We can't wait to show you what we've been working on.
+                                We're building HeavenEarthRealms piece by piece, and we
+                                can't wait to show you what we've been working on.
                             </p>
 
                             {/* Development Image */}
                             <div className="pt-1">
                                 <img
-                                    src={news.image}
+                                    src="/images/model01.png"
                                     alt="HeavenEarthRealms development"
                                     className="w-full max-w-[720px] rounded-sm object-cover"
                                 />
                             </div>
 
                             <div className="space-y-1 pt-2 text-sm">
+
                                 <p>
                                     🌎{" "}
                                     <span className="font-semibold text-white">
@@ -208,18 +274,19 @@ const NewsDetails = () => {
                                 </p>
 
                                 <p>
-                                    ✨{" "}
+                                    ⚔️{" "}
                                     <span className="font-semibold text-white">
-                                        The journey starts now.
+                                        Survive. Explore. Progress.
                                     </span>
                                 </p>
 
                                 <p>
-                                    ⚔️{" "}
+                                    ✨{" "}
                                     <span className="font-semibold text-white">
                                         More updates coming soon.
                                     </span>
                                 </p>
+
                             </div>
 
                         </div>
