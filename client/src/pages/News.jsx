@@ -6,7 +6,7 @@ const news = [
     title: "A New Era Begins in Heaven Earth",
     date: "July 9, 2026",
     image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "/images/news.png",
   },
 ];
 import { Link } from "react-router-dom";

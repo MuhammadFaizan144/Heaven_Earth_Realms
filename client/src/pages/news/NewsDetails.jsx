@@ -9,8 +9,8 @@ const NewsDetails = () => {
         date: "July 9th, 2026",
         likes: 0,
         time: "just now",
-        banner: "/images/news/heavenearth-development-banner.png",
-        image: "/images/news/heavenearth-development.png",
+        banner: "/images/news.png",
+        image: "/images/news.png",
     };
 
     return (
