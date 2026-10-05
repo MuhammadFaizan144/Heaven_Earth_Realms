@@ -1,26 +1,25 @@
 const mongoose=require('mongoose')
-const { email } = require('zod')
 const userSchema=new mongoose.Schema({
     username:{
         type:String,
-        required:true
+        require:true
     },
     email:{
         type:String,
-        required:true
+        require:true
     },
     phone:{
         type:String,
-        required:true
+        require:true
     },
     password:{
         type:String,
-        required:true
+        require:true
     },
     isAdmin:{
         type:Boolean,
-        required:false
+        require:false
     }
 })
-const User=new mongoose.Schema.model("User",userSchema)
+const User=new mongoose.model("User",userSchema)
 module.exports=User

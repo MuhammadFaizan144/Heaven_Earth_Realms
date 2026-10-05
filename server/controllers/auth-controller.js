@@ -1,4 +1,4 @@
-const User = require('../models/user-model')
+const User = require('../model/user-model')
 const home = async (req, res) => {
     try {
         res.status(200).send("Hello")
